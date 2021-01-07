@@ -1,7 +1,7 @@
 ﻿
 namespace SkridtTaeller
 {
-    partial class homepageForm
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace SkridtTaeller
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(homepageForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panelTopMenu = new System.Windows.Forms.FlowLayoutPanel();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.dropDown = new System.Windows.Forms.Button();
@@ -37,12 +37,8 @@ namespace SkridtTaeller
             this.stepsButton = new System.Windows.Forms.Button();
             this.rewardsButton = new System.Windows.Forms.Button();
             this.homepageButton = new System.Windows.Forms.Button();
-            this.mainPanel = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelTopMenu.SuspendLayout();
             this.subMenuPanel.SuspendLayout();
-            this.mainPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelTopMenu
@@ -50,7 +46,6 @@ namespace SkridtTaeller
             this.panelTopMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(166)))), ((int)(((byte)(243)))));
             this.panelTopMenu.Controls.Add(this.panelLogo);
             this.panelTopMenu.Controls.Add(this.dropDown);
-            this.panelTopMenu.Controls.Add(this.subMenuPanel);
             this.panelTopMenu.Location = new System.Drawing.Point(-1, -1);
             this.panelTopMenu.Name = "panelTopMenu";
             this.panelTopMenu.Size = new System.Drawing.Size(756, 100);
@@ -86,87 +81,69 @@ namespace SkridtTaeller
             this.subMenuPanel.Controls.Add(this.stepsButton);
             this.subMenuPanel.Controls.Add(this.rewardsButton);
             this.subMenuPanel.Controls.Add(this.homepageButton);
-            this.subMenuPanel.Location = new System.Drawing.Point(236, 3);
+            this.subMenuPanel.Location = new System.Drawing.Point(114, 98);
             this.subMenuPanel.Name = "subMenuPanel";
-            this.subMenuPanel.Size = new System.Drawing.Size(348, 95);
+            this.subMenuPanel.Size = new System.Drawing.Size(115, 138);
             this.subMenuPanel.TabIndex = 2;
             // 
             // stepsButton
             // 
             this.stepsButton.FlatAppearance.BorderSize = 0;
             this.stepsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.stepsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stepsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.stepsButton.ForeColor = System.Drawing.Color.White;
-            this.stepsButton.Location = new System.Drawing.Point(225, 10);
+            this.stepsButton.Location = new System.Drawing.Point(1, 91);
             this.stepsButton.Name = "stepsButton";
-            this.stepsButton.Size = new System.Drawing.Size(112, 87);
+            this.stepsButton.Size = new System.Drawing.Size(112, 43);
             this.stepsButton.TabIndex = 3;
             this.stepsButton.Text = "Steps";
+            this.stepsButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.stepsButton.UseVisualStyleBackColor = true;
             // 
             // rewardsButton
             // 
             this.rewardsButton.FlatAppearance.BorderSize = 0;
             this.rewardsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rewardsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rewardsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rewardsButton.ForeColor = System.Drawing.Color.White;
-            this.rewardsButton.Location = new System.Drawing.Point(119, 10);
+            this.rewardsButton.Location = new System.Drawing.Point(1, 47);
             this.rewardsButton.Name = "rewardsButton";
-            this.rewardsButton.Size = new System.Drawing.Size(112, 87);
+            this.rewardsButton.Size = new System.Drawing.Size(112, 43);
             this.rewardsButton.TabIndex = 2;
             this.rewardsButton.Text = "Rewards";
+            this.rewardsButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.rewardsButton.UseVisualStyleBackColor = true;
             // 
             // homepageButton
             // 
             this.homepageButton.FlatAppearance.BorderSize = 0;
             this.homepageButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.homepageButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.homepageButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.homepageButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.homepageButton.Location = new System.Drawing.Point(3, 10);
+            this.homepageButton.Location = new System.Drawing.Point(1, 3);
             this.homepageButton.Name = "homepageButton";
-            this.homepageButton.Size = new System.Drawing.Size(112, 87);
+            this.homepageButton.Size = new System.Drawing.Size(112, 43);
             this.homepageButton.TabIndex = 1;
             this.homepageButton.Text = "Homepage";
+            this.homepageButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.homepageButton.UseVisualStyleBackColor = true;
             // 
-            // mainPanel
-            // 
-            this.mainPanel.Controls.Add(this.pictureBox1);
-            this.mainPanel.Location = new System.Drawing.Point(2, 103);
-            this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(753, 723);
-            this.mainPanel.TabIndex = 3;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(90, 37);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(552, 676);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // homepageForm
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(752, 837);
-            this.Controls.Add(this.mainPanel);
+            this.ClientSize = new System.Drawing.Size(752, 1031);
+            this.Controls.Add(this.subMenuPanel);
             this.Controls.Add(this.panelTopMenu);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Name = "homepageForm";
+            this.MaximizeBox = false;
+            this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "STEPZY";
             this.panelTopMenu.ResumeLayout(false);
             this.subMenuPanel.ResumeLayout(false);
-            this.mainPanel.ResumeLayout(false);
-            this.mainPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -180,8 +157,6 @@ namespace SkridtTaeller
         private System.Windows.Forms.Button stepsButton;
         private System.Windows.Forms.Button rewardsButton;
         private System.Windows.Forms.Button homepageButton;
-        private System.Windows.Forms.Panel mainPanel;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
