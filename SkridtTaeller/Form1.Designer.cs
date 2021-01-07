@@ -135,14 +135,14 @@ namespace SkridtTaeller
             this.mainPanel.Controls.Add(this.pictureBox1);
             this.mainPanel.Location = new System.Drawing.Point(2, 103);
             this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(753, 958);
+            this.mainPanel.Size = new System.Drawing.Size(753, 723);
             this.mainPanel.TabIndex = 3;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(90, 132);
+            this.pictureBox1.Location = new System.Drawing.Point(90, 37);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(552, 676);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -154,7 +154,7 @@ namespace SkridtTaeller
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(752, 1061);
+            this.ClientSize = new System.Drawing.Size(752, 837);
             this.Controls.Add(this.mainPanel);
             this.Controls.Add(this.panelTopMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
