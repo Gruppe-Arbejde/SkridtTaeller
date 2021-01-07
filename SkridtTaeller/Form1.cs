@@ -52,7 +52,7 @@ namespace SkridtTaeller
             homepageForm.FormBorderStyle = FormBorderStyle.None;
             homepageForm.Dock = DockStyle.Fill;
             mainPanel.Controls.Add(homepageForm);
-            //mainPanel.Tag = homepageForm();
+            mainPanel.Tag = homepageForm;
             homepageForm.BringToFront();
             homepageForm.Show();
         }
