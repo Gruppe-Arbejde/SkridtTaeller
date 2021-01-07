@@ -30,67 +30,101 @@ namespace SkridtTaeller
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panelTopMenu = new System.Windows.Forms.FlowLayoutPanel();
+            this.panelLogo = new System.Windows.Forms.Panel();
+            this.dropDown = new System.Windows.Forms.Button();
+            this.subMenuPanel = new System.Windows.Forms.Panel();
+            this.stepsButton = new System.Windows.Forms.Button();
+            this.rewardsButton = new System.Windows.Forms.Button();
+            this.homepageButton = new System.Windows.Forms.Button();
+            this.panelTopMenu.SuspendLayout();
+            this.subMenuPanel.SuspendLayout();
             this.SuspendLayout();
             // 
-            // richTextBox1
+            // panelTopMenu
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(59, 245);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(487, 260);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "";
+            this.panelTopMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(166)))), ((int)(((byte)(243)))));
+            this.panelTopMenu.Controls.Add(this.panelLogo);
+            this.panelTopMenu.Controls.Add(this.dropDown);
+            this.panelTopMenu.Location = new System.Drawing.Point(-1, -1);
+            this.panelTopMenu.Name = "panelTopMenu";
+            this.panelTopMenu.Size = new System.Drawing.Size(756, 100);
+            this.panelTopMenu.TabIndex = 0;
             // 
-            // textBox1
+            // panelLogo
             // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.textBox1.Location = new System.Drawing.Point(59, 150);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(232, 25);
-            this.textBox1.TabIndex = 3;
-            this.textBox1.Text = "Number of steps taken.";
+            this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelLogo.Location = new System.Drawing.Point(3, 3);
+            this.panelLogo.Name = "panelLogo";
+            this.panelLogo.Size = new System.Drawing.Size(106, 95);
+            this.panelLogo.TabIndex = 1;
             // 
-            // textBox2
+            // dropDown
             // 
-            this.textBox2.BackColor = System.Drawing.Color.White;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.textBox2.Location = new System.Drawing.Point(59, 204);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(97, 25);
-            this.textBox2.TabIndex = 4;
-            this.textBox2.Text = "Statistics";
+            this.dropDown.FlatAppearance.BorderSize = 0;
+            this.dropDown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dropDown.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dropDown.ForeColor = System.Drawing.Color.Black;
+            this.dropDown.Location = new System.Drawing.Point(115, 3);
+            this.dropDown.Name = "dropDown";
+            this.dropDown.Size = new System.Drawing.Size(115, 95);
+            this.dropDown.TabIndex = 1;
+            this.dropDown.Text = "=";
+            this.dropDown.UseVisualStyleBackColor = true;
+            this.dropDown.Click += new System.EventHandler(this.dropDown_Click);
             // 
-            // pictureBox1
+            // subMenuPanel
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(166)))), ((int)(((byte)(243)))));
-            this.pictureBox1.Location = new System.Drawing.Point(-4, -3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(759, 86);
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
+            this.subMenuPanel.BackColor = System.Drawing.Color.RoyalBlue;
+            this.subMenuPanel.Controls.Add(this.stepsButton);
+            this.subMenuPanel.Controls.Add(this.rewardsButton);
+            this.subMenuPanel.Controls.Add(this.homepageButton);
+            this.subMenuPanel.Location = new System.Drawing.Point(114, 98);
+            this.subMenuPanel.Name = "subMenuPanel";
+            this.subMenuPanel.Size = new System.Drawing.Size(115, 138);
+            this.subMenuPanel.TabIndex = 2;
             // 
-            // comboBox2
+            // stepsButton
             // 
-            this.comboBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(166)))), ((int)(((byte)(243)))));
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.Simple;
-            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(713, 12);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(27, 52);
-            this.comboBox2.TabIndex = 6;
-            this.comboBox2.Text = "=";
+            this.stepsButton.FlatAppearance.BorderSize = 0;
+            this.stepsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.stepsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stepsButton.ForeColor = System.Drawing.Color.White;
+            this.stepsButton.Location = new System.Drawing.Point(1, 91);
+            this.stepsButton.Name = "stepsButton";
+            this.stepsButton.Size = new System.Drawing.Size(112, 43);
+            this.stepsButton.TabIndex = 3;
+            this.stepsButton.Text = "Steps";
+            this.stepsButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.stepsButton.UseVisualStyleBackColor = true;
+            // 
+            // rewardsButton
+            // 
+            this.rewardsButton.FlatAppearance.BorderSize = 0;
+            this.rewardsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rewardsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rewardsButton.ForeColor = System.Drawing.Color.White;
+            this.rewardsButton.Location = new System.Drawing.Point(1, 47);
+            this.rewardsButton.Name = "rewardsButton";
+            this.rewardsButton.Size = new System.Drawing.Size(112, 43);
+            this.rewardsButton.TabIndex = 2;
+            this.rewardsButton.Text = "Rewards";
+            this.rewardsButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.rewardsButton.UseVisualStyleBackColor = true;
+            // 
+            // homepageButton
+            // 
+            this.homepageButton.FlatAppearance.BorderSize = 0;
+            this.homepageButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.homepageButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.homepageButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.homepageButton.Location = new System.Drawing.Point(1, 3);
+            this.homepageButton.Name = "homepageButton";
+            this.homepageButton.Size = new System.Drawing.Size(112, 43);
+            this.homepageButton.TabIndex = 1;
+            this.homepageButton.Text = "Homepage";
+            this.homepageButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.homepageButton.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -98,27 +132,26 @@ namespace SkridtTaeller
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(752, 1061);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.subMenuPanel);
+            this.Controls.Add(this.panelTopMenu);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "STEPZY";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panelTopMenu.ResumeLayout(false);
+            this.subMenuPanel.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.FlowLayoutPanel panelTopMenu;
+        private System.Windows.Forms.Panel panelLogo;
+        private System.Windows.Forms.Button dropDown;
+        private System.Windows.Forms.Panel subMenuPanel;
+        private System.Windows.Forms.Button stepsButton;
+        private System.Windows.Forms.Button rewardsButton;
+        private System.Windows.Forms.Button homepageButton;
     }
 }
 

@@ -15,7 +15,31 @@ namespace SkridtTaeller
         public Form1()
         {
             InitializeComponent();
+            customizeDesign();
         }
 
+        private void customizeDesign()
+        {
+            subMenuPanel.Visible = false;
+        }
+        private void hideSubMenu()
+        {
+            if (subMenuPanel.Visible == true)
+                subMenuPanel.Visible = false;
+        }
+        private void showSubMenu(Panel subMenu)
+        {
+            if (subMenu.Visible == false)
+            {
+                hideSubMenu();
+                subMenu.Visible = true;
+            }
+            else subMenu.Visible = false;
+        }
+
+        private void dropDown_Click(object sender, EventArgs e)
+        {
+            showSubMenu(subMenuPanel);
+        }
     }
 }
