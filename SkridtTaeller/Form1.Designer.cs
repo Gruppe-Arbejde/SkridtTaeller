@@ -132,12 +132,15 @@ namespace SkridtTaeller
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(752, 1061);
+            this.ClientSize = new System.Drawing.Size(752, 1031);
             this.Controls.Add(this.subMenuPanel);
             this.Controls.Add(this.panelTopMenu);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "STEPZY";
             this.panelTopMenu.ResumeLayout(false);
             this.subMenuPanel.ResumeLayout(false);
