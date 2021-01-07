@@ -36,7 +36,7 @@ namespace SkridtTaeller
             this.subMenuPanel = new System.Windows.Forms.Panel();
             this.stepsButton = new System.Windows.Forms.Button();
             this.rewardsButton = new System.Windows.Forms.Button();
-            this.homepageButton = new System.Windows.Forms.Button();
+            this.guideButton = new System.Windows.Forms.Button();
             this.mainPanel = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelTopMenu.SuspendLayout();
@@ -85,7 +85,7 @@ namespace SkridtTaeller
             this.subMenuPanel.BackColor = System.Drawing.Color.RoyalBlue;
             this.subMenuPanel.Controls.Add(this.stepsButton);
             this.subMenuPanel.Controls.Add(this.rewardsButton);
-            this.subMenuPanel.Controls.Add(this.homepageButton);
+            this.subMenuPanel.Controls.Add(this.guideButton);
             this.subMenuPanel.Location = new System.Drawing.Point(236, 3);
             this.subMenuPanel.Name = "subMenuPanel";
             this.subMenuPanel.Size = new System.Drawing.Size(366, 95);
@@ -102,7 +102,6 @@ namespace SkridtTaeller
             this.stepsButton.Size = new System.Drawing.Size(112, 43);
             this.stepsButton.TabIndex = 3;
             this.stepsButton.Text = "Steps";
-            this.stepsButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.stepsButton.UseVisualStyleBackColor = true;
             // 
             // rewardsButton
@@ -116,22 +115,20 @@ namespace SkridtTaeller
             this.rewardsButton.Size = new System.Drawing.Size(112, 43);
             this.rewardsButton.TabIndex = 2;
             this.rewardsButton.Text = "Rewards";
-            this.rewardsButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.rewardsButton.UseVisualStyleBackColor = true;
             // 
-            // homepageButton
+            // guideButton
             // 
-            this.homepageButton.FlatAppearance.BorderSize = 0;
-            this.homepageButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.homepageButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.homepageButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.homepageButton.Location = new System.Drawing.Point(3, 25);
-            this.homepageButton.Name = "homepageButton";
-            this.homepageButton.Size = new System.Drawing.Size(112, 43);
-            this.homepageButton.TabIndex = 1;
-            this.homepageButton.Text = "Homepage";
-            this.homepageButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.homepageButton.UseVisualStyleBackColor = true;
+            this.guideButton.FlatAppearance.BorderSize = 0;
+            this.guideButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.guideButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guideButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.guideButton.Location = new System.Drawing.Point(3, 25);
+            this.guideButton.Name = "guideButton";
+            this.guideButton.Size = new System.Drawing.Size(112, 43);
+            this.guideButton.TabIndex = 1;
+            this.guideButton.Text = "Guide";
+            this.guideButton.UseVisualStyleBackColor = true;
             // 
             // mainPanel
             // 
@@ -183,7 +180,7 @@ namespace SkridtTaeller
         private System.Windows.Forms.Panel subMenuPanel;
         private System.Windows.Forms.Button stepsButton;
         private System.Windows.Forms.Button rewardsButton;
-        private System.Windows.Forms.Button homepageButton;
+        private System.Windows.Forms.Button guideButton;
         private System.Windows.Forms.Panel mainPanel;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
