@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace SkridtTaeller
 {
-    public partial class Form1 : Form
+    public partial class STEPZY : Form
     {
-        public Form1()
+        public STEPZY()
         {
             InitializeComponent();
         }
-
     }
 }
