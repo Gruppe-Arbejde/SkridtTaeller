@@ -35,9 +35,9 @@ namespace SkridtTaeller
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(189, 101);
+            this.richTextBox1.Location = new System.Drawing.Point(83, 249);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(100, 96);
+            this.richTextBox1.Size = new System.Drawing.Size(487, 260);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
             // 
@@ -49,7 +49,7 @@ namespace SkridtTaeller
             this.Controls.Add(this.richTextBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "STEPZY";
             this.ResumeLayout(false);
 
         }
