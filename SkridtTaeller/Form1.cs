@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SkridtTaeller
 {
-    public partial class Form1 : Form
+    public partial class homepageForm : Form
     {
-        public Form1()
+        public homepageForm()
         {
             InitializeComponent();
             customizeDesign();
@@ -40,6 +40,21 @@ namespace SkridtTaeller
         private void dropDown_Click(object sender, EventArgs e)
         {
             showSubMenu(subMenuPanel);
+        }
+
+        private Form activeForm = null;
+        private void openHomepageForm(Form homepageForm)
+        {
+            if (activeForm != null)
+                activeForm.Close();
+            activeForm = homepageForm;
+            homepageForm.TopLevel = false;
+            homepageForm.FormBorderStyle = FormBorderStyle.None;
+            homepageForm.Dock = DockStyle.Fill;
+            mainPanel.Controls.Add(homepageForm);
+            //mainPanel.Tag = homepageForm();
+            homepageForm.BringToFront();
+            homepageForm.Show();
         }
     }
 }
