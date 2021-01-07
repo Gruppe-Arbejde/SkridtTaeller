@@ -1,7 +1,7 @@
 ﻿
 namespace SkridtTaeller
 {
-    partial class guide
+    partial class steps
     {
         /// <summary>
         /// Required designer variable.
@@ -36,21 +36,21 @@ namespace SkridtTaeller
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(298, 46);
+            this.label1.Location = new System.Drawing.Point(371, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 26);
+            this.label1.Size = new System.Drawing.Size(68, 26);
             this.label1.TabIndex = 0;
-            this.label1.Text = "GUIDE";
+            this.label1.Text = "Steps";
             // 
-            // guide
+            // steps
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(756, 784);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "guide";
-            this.Text = "Form2";
+            this.Name = "steps";
+            this.Text = "Form4";
             this.ResumeLayout(false);
             this.PerformLayout();
 

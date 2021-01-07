@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SkridtTaeller
 {
-    public partial class guide : Form
+    public partial class steps : Form
     {
-        public guide()
+        public steps()
         {
             InitializeComponent();
         }

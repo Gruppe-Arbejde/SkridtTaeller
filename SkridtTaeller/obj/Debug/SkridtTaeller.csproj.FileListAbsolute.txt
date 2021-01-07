@@ -18,4 +18,6 @@ C:\Users\Nikol\source\repos\SkridtTaeller\SkridtTaeller\obj\Debug\SkridtTaeller.
 C:\Users\Nikol\source\repos\SkridtTaeller\SkridtTaeller\obj\Debug\SkridtTaeller.exe
 C:\Users\Nikol\source\repos\SkridtTaeller\SkridtTaeller\obj\Debug\SkridtTaeller.pdb
 C:\Users\Nikol\source\repos\SkridtTaeller\SkridtTaeller\obj\Debug\SkridtTaeller.homepageForm.resources
-C:\Users\Nikol\source\repos\SkridtTaeller\SkridtTaeller\obj\Debug\SkridtTaeller.Form2.resources
+C:\Users\Nikol\source\repos\SkridtTaeller\SkridtTaeller\obj\Debug\SkridtTaeller.guide.resources
+C:\Users\Nikol\source\repos\SkridtTaeller\SkridtTaeller\obj\Debug\SkridtTaeller.rewards.resources
+C:\Users\Nikol\source\repos\SkridtTaeller\SkridtTaeller\obj\Debug\SkridtTaeller.steps.resources

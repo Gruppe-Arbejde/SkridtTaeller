@@ -38,11 +38,11 @@ namespace SkridtTaeller
             this.rewardsButton = new System.Windows.Forms.Button();
             this.guideButton = new System.Windows.Forms.Button();
             this.mainPanel = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.stepsyPicture = new System.Windows.Forms.PictureBox();
             this.panelTopMenu.SuspendLayout();
             this.subMenuPanel.SuspendLayout();
             this.mainPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stepsyPicture)).BeginInit();
             this.SuspendLayout();
             // 
             // panelTopMenu
@@ -65,6 +65,7 @@ namespace SkridtTaeller
             this.panelLogo.Name = "panelLogo";
             this.panelLogo.Size = new System.Drawing.Size(106, 95);
             this.panelLogo.TabIndex = 1;
+            this.panelLogo.Click += new System.EventHandler(this.panelLogo_Click);
             // 
             // dropDown
             // 
@@ -103,6 +104,7 @@ namespace SkridtTaeller
             this.stepsButton.TabIndex = 3;
             this.stepsButton.Text = "Steps";
             this.stepsButton.UseVisualStyleBackColor = true;
+            this.stepsButton.Click += new System.EventHandler(this.stepsButton_Click);
             // 
             // rewardsButton
             // 
@@ -116,6 +118,7 @@ namespace SkridtTaeller
             this.rewardsButton.TabIndex = 2;
             this.rewardsButton.Text = "Rewards";
             this.rewardsButton.UseVisualStyleBackColor = true;
+            this.rewardsButton.Click += new System.EventHandler(this.rewardsButton_Click);
             // 
             // guideButton
             // 
@@ -129,25 +132,28 @@ namespace SkridtTaeller
             this.guideButton.TabIndex = 1;
             this.guideButton.Text = "Guide";
             this.guideButton.UseVisualStyleBackColor = true;
+            this.guideButton.Click += new System.EventHandler(this.guideButton_Click);
             // 
             // mainPanel
             // 
-            this.mainPanel.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.mainPanel.Controls.Add(this.pictureBox1);
+            this.mainPanel.Controls.Add(this.stepsyPicture);
             this.mainPanel.Location = new System.Drawing.Point(-1, 99);
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(756, 784);
             this.mainPanel.TabIndex = 4;
             // 
-            // pictureBox1
+            // stepsyPicture
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(98, 47);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(552, 676);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.stepsyPicture.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.stepsyPicture.Image = ((System.Drawing.Image)(resources.GetObject("stepsyPicture.Image")));
+            this.stepsyPicture.Location = new System.Drawing.Point(98, 47);
+            this.stepsyPicture.Name = "stepsyPicture";
+            this.stepsyPicture.Size = new System.Drawing.Size(552, 676);
+            this.stepsyPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.stepsyPicture.TabIndex = 0;
+            this.stepsyPicture.TabStop = false;
             // 
             // homepageForm
             // 
@@ -167,7 +173,7 @@ namespace SkridtTaeller
             this.subMenuPanel.ResumeLayout(false);
             this.mainPanel.ResumeLayout(false);
             this.mainPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stepsyPicture)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -182,7 +188,7 @@ namespace SkridtTaeller
         private System.Windows.Forms.Button rewardsButton;
         private System.Windows.Forms.Button guideButton;
         private System.Windows.Forms.Panel mainPanel;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox stepsyPicture;
     }
 }
 
