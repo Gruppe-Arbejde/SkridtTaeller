@@ -53,6 +53,8 @@ namespace SkridtTaeller
             // 
             // panelLogo
             // 
+            this.panelLogo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelLogo.BackgroundImage")));
+            this.panelLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(3, 3);
             this.panelLogo.Name = "panelLogo";
