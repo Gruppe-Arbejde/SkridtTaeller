@@ -71,6 +71,10 @@ namespace SkridtTaeller
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -214,7 +218,7 @@ namespace SkridtTaeller
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(140, 56);
             this.label5.TabIndex = 11;
-            this.label5.Text = "15 dollar iTunes giftcard";
+            this.label5.Text = "15$ iTunes giftcard";
             // 
             // label6
             // 
@@ -330,13 +334,13 @@ namespace SkridtTaeller
             // label16
             // 
             this.label16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(166)))), ((int)(((byte)(243)))));
-            this.label16.Font = new System.Drawing.Font("HP Simplified", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Font = new System.Drawing.Font("HP Simplified", 17F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.Black;
             this.label16.Location = new System.Drawing.Point(604, 524);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(140, 36);
             this.label16.TabIndex = 30;
-            this.label16.Text = "1000 Steps";
+            this.label16.Text = "1 mio.  Steps";
             // 
             // label17
             // 
@@ -492,12 +496,52 @@ namespace SkridtTaeller
             this.label26.TabIndex = 44;
             this.label26.Text = "1000 Steps";
             // 
+            // label27
+            // 
+            this.label27.Font = new System.Drawing.Font("HP Simplified", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(9, 186);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(140, 28);
+            this.label27.TabIndex = 45;
+            this.label27.Text = "5$ in PayPal";
+            // 
+            // label28
+            // 
+            this.label28.Font = new System.Drawing.Font("HP Simplified", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(208, 167);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(140, 47);
+            this.label28.TabIndex = 46;
+            this.label28.Text = "Google playstore 15$ giftcard";
+            // 
+            // label29
+            // 
+            this.label29.Font = new System.Drawing.Font("HP Simplified", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(413, 167);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(140, 47);
+            this.label29.TabIndex = 47;
+            this.label29.Text = "1/1000th of a Bitcoin";
+            // 
+            // label30
+            // 
+            this.label30.Font = new System.Drawing.Font("HP Simplified", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(603, 167);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(141, 47);
+            this.label30.TabIndex = 48;
+            this.label30.Text = "1  month Netflix subscription";
+            // 
             // rewards
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(756, 784);
+            this.Controls.Add(this.label30);
+            this.Controls.Add(this.label29);
+            this.Controls.Add(this.label28);
+            this.Controls.Add(this.label27);
             this.Controls.Add(this.label26);
             this.Controls.Add(this.label25);
             this.Controls.Add(this.label24);
@@ -599,5 +643,9 @@ namespace SkridtTaeller
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label30;
     }
 }
