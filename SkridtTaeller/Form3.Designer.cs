@@ -334,13 +334,13 @@ namespace SkridtTaeller
             // label16
             // 
             this.label16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(166)))), ((int)(((byte)(243)))));
-            this.label16.Font = new System.Drawing.Font("HP Simplified", 17F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Font = new System.Drawing.Font("HP Simplified", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.Black;
             this.label16.Location = new System.Drawing.Point(604, 524);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(140, 36);
             this.label16.TabIndex = 30;
-            this.label16.Text = "1 mio.  Steps";
+            this.label16.Text = "10 mio.  Steps";
             // 
             // label17
             // 
