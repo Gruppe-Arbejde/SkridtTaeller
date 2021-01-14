@@ -2,3 +2,5 @@
 *.cache
 SkridtTaeller/obj/Debug/SkridtTaeller.csprojAssemblyReference.cache
 SkridtTaeller/obj/Debug/SkridtTaeller.csproj.GenerateResource.cache
+.vs/SkridtTaeller/v16/.suo
+*.cache
