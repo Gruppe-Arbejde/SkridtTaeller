@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SkridtTaeller
 {
-    public partial class rewards : Form
+    public partial class rewardsPanel : Form
     {
-        public rewards()
+        public rewardsPanel()
         {
             InitializeComponent();
         }

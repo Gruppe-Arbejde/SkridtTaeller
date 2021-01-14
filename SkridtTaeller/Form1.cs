@@ -56,7 +56,7 @@ namespace SkridtTaeller
         private void rewardsButton_Click(object sender, EventArgs e)
         {
             this.mainPanel.Controls.Clear();
-            rewards b = new rewards() {Dock = DockStyle.Fill, TopLevel = false, TopMost = true};
+            rewardsPanel b = new rewardsPanel() {Dock = DockStyle.Fill, TopLevel = false, TopMost = true};
             b.FormBorderStyle = FormBorderStyle.None;
             this.mainPanel.Controls.Add(b);
             b.Show();

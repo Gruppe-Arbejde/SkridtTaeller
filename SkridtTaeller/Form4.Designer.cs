@@ -31,7 +31,7 @@ namespace SkridtTaeller
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.stepsPanal = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.stepsLabel = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -39,17 +39,17 @@ namespace SkridtTaeller
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // stepsPanal
             // 
-            this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(756, 51);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "STEPS";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.stepsPanal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.stepsPanal.Dock = System.Windows.Forms.DockStyle.Top;
+            this.stepsPanal.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stepsPanal.Location = new System.Drawing.Point(0, 0);
+            this.stepsPanal.Name = "stepsPanal";
+            this.stepsPanal.Size = new System.Drawing.Size(756, 51);
+            this.stepsPanal.TabIndex = 0;
+            this.stepsPanal.Text = "STEPS";
+            this.stepsPanal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel1
             // 
@@ -76,6 +76,7 @@ namespace SkridtTaeller
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = global::SkridtTaeller.Properties.Resources.begining_picture_in_steps_2_0;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
@@ -91,7 +92,7 @@ namespace SkridtTaeller
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(756, 784);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.stepsPanal);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "steps";
             this.Text = "Form4";
@@ -104,7 +105,7 @@ namespace SkridtTaeller
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label stepsPanal;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label stepsLabel;
         private System.Windows.Forms.PictureBox pictureBox1;
