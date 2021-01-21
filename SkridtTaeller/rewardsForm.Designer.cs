@@ -508,27 +508,27 @@ namespace SkridtTaeller
             // label28
             // 
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(208, 167);
+            this.label28.Location = new System.Drawing.Point(208, 186);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(140, 47);
+            this.label28.Size = new System.Drawing.Size(140, 28);
             this.label28.TabIndex = 46;
             this.label28.Text = "Google playstore 15$ giftcard";
             // 
             // label29
             // 
             this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(413, 167);
+            this.label29.Location = new System.Drawing.Point(413, 186);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(140, 47);
+            this.label29.Size = new System.Drawing.Size(140, 28);
             this.label29.TabIndex = 47;
             this.label29.Text = "1/1000th of a Bitcoin";
             // 
             // label30
             // 
             this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(603, 167);
+            this.label30.Location = new System.Drawing.Point(603, 186);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(141, 47);
+            this.label30.Size = new System.Drawing.Size(141, 28);
             this.label30.TabIndex = 48;
             this.label30.Text = "1  month Netflix subscription";
             // 

@@ -19,7 +19,6 @@ C:\Users\Nikol\source\repos\SkridtTaeller\SkridtTaeller\obj\Debug\SkridtTaeller.
 C:\Users\Nikol\source\repos\SkridtTaeller\SkridtTaeller\obj\Debug\SkridtTaeller.pdb
 C:\Users\Nikol\source\repos\SkridtTaeller\SkridtTaeller\obj\Debug\SkridtTaeller.homepageForm.resources
 C:\Users\Nikol\source\repos\SkridtTaeller\SkridtTaeller\obj\Debug\SkridtTaeller.guide.resources
-C:\Users\Nikol\source\repos\SkridtTaeller\SkridtTaeller\obj\Debug\SkridtTaeller.rewards.resources
 C:\Users\Nikol\source\repos\SkridtTaeller\SkridtTaeller\obj\Debug\SkridtTaeller.steps.resources
 C:\Users\maxim\Documents\GitHub\SkridtTaeller\SkridtTaeller\bin\Debug\SkridtTaeller.exe.config
 C:\Users\maxim\Documents\GitHub\SkridtTaeller\SkridtTaeller\bin\Debug\SkridtTaeller.exe
@@ -37,3 +36,7 @@ C:\Users\maxim\Documents\GitHub\SkridtTaeller\SkridtTaeller\obj\Debug\SkridtTael
 C:\Users\maxim\Documents\GitHub\SkridtTaeller\SkridtTaeller\bin\Debug\da\SkridtTaeller.resources.dll
 C:\Users\maxim\Documents\GitHub\SkridtTaeller\SkridtTaeller\obj\Debug\SkridtTaeller.homepageForm.da.resources
 C:\Users\maxim\Documents\GitHub\SkridtTaeller\SkridtTaeller\obj\Debug\da\SkridtTaeller.resources.dll
+C:\Users\Nikol\source\repos\SkridtTaeller\SkridtTaeller\bin\Debug\da\SkridtTaeller.resources.dll
+C:\Users\Nikol\source\repos\SkridtTaeller\SkridtTaeller\obj\Debug\SkridtTaeller.rewardsPanel.resources
+C:\Users\Nikol\source\repos\SkridtTaeller\SkridtTaeller\obj\Debug\SkridtTaeller.homepageForm.da.resources
+C:\Users\Nikol\source\repos\SkridtTaeller\SkridtTaeller\obj\Debug\da\SkridtTaeller.resources.dll
