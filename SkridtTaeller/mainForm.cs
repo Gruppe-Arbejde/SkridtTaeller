@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SkridtTaeller
@@ -20,7 +13,7 @@ namespace SkridtTaeller
 
         private void customizeDesign()
         {
-            subMenuPanel.Visible = false;
+            subMenuPanel.Visible = false; //Makes the subpanel not visible on boot/run
         }
         private void hideSubMenu()
         {
@@ -39,24 +32,24 @@ namespace SkridtTaeller
 
         private void dropDown_Click(object sender, EventArgs e)
         {
-            showSubMenu(subMenuPanel);
+            showSubMenu(subMenuPanel); //callback to method showSubMenu upon click which makes the subpanel appear
         }
 
         private void guideButton_Click(object sender, EventArgs e)
         {
-            this.mainPanel.Controls.Clear();
-            guide a = new guide() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
-            a.FormBorderStyle = FormBorderStyle.None;
-            this.mainPanel.Controls.Add(a);
-            a.Show();
+            this.mainPanel.Controls.Clear(); //clears if there is already something displayed in the main panel
+            guide a = new guide() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true }; //creates new instance of the winForms guide and sets the settings to the variable a
+            a.FormBorderStyle = FormBorderStyle.None; //no border for cleaner look
+            this.mainPanel.Controls.Add(a); //adds the variable a to the main subpanel
+            a.Show(); //show the added variable on the subpanel
             hideSubMenu();
-            stepsyPicture.Visible = false;
+            stepsyPicture.Visible = false; //disables the stepzy logo in main winForm
         }
 
         private void rewardsButton_Click(object sender, EventArgs e)
         {
             this.mainPanel.Controls.Clear();
-            rewards b = new rewards() {Dock = DockStyle.Fill, TopLevel = false, TopMost = true};
+            rewardsPanel b = new rewardsPanel() {Dock = DockStyle.Fill, TopLevel = false, TopMost = true};
             b.FormBorderStyle = FormBorderStyle.None;
             this.mainPanel.Controls.Add(b);
             b.Show();

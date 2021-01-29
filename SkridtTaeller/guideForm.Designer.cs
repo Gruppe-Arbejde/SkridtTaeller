@@ -1,7 +1,7 @@
 ﻿
 namespace SkridtTaeller
 {
-    partial class rewards
+    partial class guide
     {
         /// <summary>
         /// Required designer variable.
@@ -29,37 +29,37 @@ namespace SkridtTaeller
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.guidePanel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // guidePanel
             // 
-            this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(756, 51);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "REWARDS";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.guidePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.guidePanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guidePanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guidePanel.Location = new System.Drawing.Point(0, 0);
+            this.guidePanel.Name = "guidePanel";
+            this.guidePanel.Size = new System.Drawing.Size(756, 51);
+            this.guidePanel.TabIndex = 0;
+            this.guidePanel.Text = "GUIDE";
+            this.guidePanel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // rewards
+            // guide
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(756, 784);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.guidePanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "rewards";
-            this.Text = "Form3";
+            this.Name = "guide";
+            this.Text = "Form2";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label guidePanel;
     }
 }

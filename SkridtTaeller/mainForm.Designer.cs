@@ -47,128 +47,87 @@ namespace SkridtTaeller
             // 
             // panelTopMenu
             // 
-            this.panelTopMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(166)))), ((int)(((byte)(243)))));
+            this.panelTopMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(140)))), ((int)(((byte)(226)))));
             this.panelTopMenu.Controls.Add(this.panelLogo);
             this.panelTopMenu.Controls.Add(this.dropDown);
             this.panelTopMenu.Controls.Add(this.subMenuPanel);
-            this.panelTopMenu.Location = new System.Drawing.Point(-1, -1);
+            this.panelTopMenu.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.panelTopMenu, "panelTopMenu");
             this.panelTopMenu.Name = "panelTopMenu";
-            this.panelTopMenu.Size = new System.Drawing.Size(756, 100);
-            this.panelTopMenu.TabIndex = 0;
             // 
             // panelLogo
             // 
-            this.panelLogo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelLogo.BackgroundImage")));
-            this.panelLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelLogo.Location = new System.Drawing.Point(3, 3);
+            resources.ApplyResources(this.panelLogo, "panelLogo");
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(106, 95);
-            this.panelLogo.TabIndex = 1;
             this.panelLogo.Click += new System.EventHandler(this.panelLogo_Click);
             // 
             // dropDown
             // 
             this.dropDown.FlatAppearance.BorderSize = 0;
-            this.dropDown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dropDown.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dropDown.ForeColor = System.Drawing.Color.Black;
-            this.dropDown.Location = new System.Drawing.Point(115, 3);
+            resources.ApplyResources(this.dropDown, "dropDown");
+            this.dropDown.ForeColor = System.Drawing.Color.White;
             this.dropDown.Name = "dropDown";
-            this.dropDown.Size = new System.Drawing.Size(115, 95);
-            this.dropDown.TabIndex = 1;
-            this.dropDown.Text = "=";
             this.dropDown.UseVisualStyleBackColor = true;
             this.dropDown.Click += new System.EventHandler(this.dropDown_Click);
             // 
             // subMenuPanel
             // 
-            this.subMenuPanel.BackColor = System.Drawing.Color.RoyalBlue;
+            this.subMenuPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(140)))), ((int)(((byte)(226)))));
             this.subMenuPanel.Controls.Add(this.stepsButton);
             this.subMenuPanel.Controls.Add(this.rewardsButton);
             this.subMenuPanel.Controls.Add(this.guideButton);
-            this.subMenuPanel.Location = new System.Drawing.Point(236, 3);
+            resources.ApplyResources(this.subMenuPanel, "subMenuPanel");
             this.subMenuPanel.Name = "subMenuPanel";
-            this.subMenuPanel.Size = new System.Drawing.Size(366, 95);
-            this.subMenuPanel.TabIndex = 2;
             // 
             // stepsButton
             // 
             this.stepsButton.FlatAppearance.BorderSize = 0;
-            this.stepsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.stepsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.stepsButton, "stepsButton");
             this.stepsButton.ForeColor = System.Drawing.Color.White;
-            this.stepsButton.Location = new System.Drawing.Point(239, 25);
             this.stepsButton.Name = "stepsButton";
-            this.stepsButton.Size = new System.Drawing.Size(112, 43);
-            this.stepsButton.TabIndex = 3;
-            this.stepsButton.Text = "Steps";
             this.stepsButton.UseVisualStyleBackColor = true;
             this.stepsButton.Click += new System.EventHandler(this.stepsButton_Click);
             // 
             // rewardsButton
             // 
             this.rewardsButton.FlatAppearance.BorderSize = 0;
-            this.rewardsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rewardsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.rewardsButton, "rewardsButton");
             this.rewardsButton.ForeColor = System.Drawing.Color.White;
-            this.rewardsButton.Location = new System.Drawing.Point(121, 25);
             this.rewardsButton.Name = "rewardsButton";
-            this.rewardsButton.Size = new System.Drawing.Size(112, 43);
-            this.rewardsButton.TabIndex = 2;
-            this.rewardsButton.Text = "Rewards";
             this.rewardsButton.UseVisualStyleBackColor = true;
             this.rewardsButton.Click += new System.EventHandler(this.rewardsButton_Click);
             // 
             // guideButton
             // 
             this.guideButton.FlatAppearance.BorderSize = 0;
-            this.guideButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.guideButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.guideButton, "guideButton");
             this.guideButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.guideButton.Location = new System.Drawing.Point(3, 25);
             this.guideButton.Name = "guideButton";
-            this.guideButton.Size = new System.Drawing.Size(112, 43);
-            this.guideButton.TabIndex = 1;
-            this.guideButton.Text = "Guide";
             this.guideButton.UseVisualStyleBackColor = true;
             this.guideButton.Click += new System.EventHandler(this.guideButton_Click);
             // 
             // mainPanel
             // 
+            resources.ApplyResources(this.mainPanel, "mainPanel");
+            this.mainPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.mainPanel.Controls.Add(this.stepsyPicture);
-            this.mainPanel.Location = new System.Drawing.Point(-1, 99);
             this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(756, 784);
-            this.mainPanel.TabIndex = 4;
             // 
             // stepsyPicture
             // 
-            this.stepsyPicture.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.stepsyPicture.Image = ((System.Drawing.Image)(resources.GetObject("stepsyPicture.Image")));
-            this.stepsyPicture.Location = new System.Drawing.Point(98, 47);
+            resources.ApplyResources(this.stepsyPicture, "stepsyPicture");
             this.stepsyPicture.Name = "stepsyPicture";
-            this.stepsyPicture.Size = new System.Drawing.Size(552, 676);
-            this.stepsyPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.stepsyPicture.TabIndex = 0;
             this.stepsyPicture.TabStop = false;
             // 
             // homepageForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(752, 885);
             this.Controls.Add(this.mainPanel);
             this.Controls.Add(this.panelTopMenu);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "homepageForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "STEPZY";
             this.panelTopMenu.ResumeLayout(false);
             this.subMenuPanel.ResumeLayout(false);
             this.mainPanel.ResumeLayout(false);
