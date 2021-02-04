@@ -8,17 +8,40 @@ namespace SkridtTaeller
         public guide()
         {
             InitializeComponent();
-            for (int i = 0; i < 100000; i++)
+        }
+
+        int pic = -1;
+        private void buttonPrevious_Click(object sender, EventArgs e)
+        {
+            try
             {
-                if (i == 10000)
+                if (pic > 0)
                 {
-                    pictureBox.Image = SkridtTaeller.Properties.Resources.Guide_2;
+                    pic--;
                 }
-                else if (i == 20000)
-                {
-                    pictureBox.Image = SkridtTaeller.Properties.Resources.Guide_3;
-                }
+
+                pictureBox.Image = imageList1.Images[pic];
+
             }
+            catch (Exception) { }
+        }
+
+
+
+        private void buttonNext_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (pic < 3)
+                {
+                    pic++;
+                }
+
+                pictureBox.Image = imageList1.Images[pic];
+            }
+            catch (Exception) { }
         }
     }
 }
+
+

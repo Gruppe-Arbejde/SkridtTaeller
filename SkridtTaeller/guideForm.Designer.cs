@@ -29,8 +29,12 @@ namespace SkridtTaeller
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.guidePanel = new System.Windows.Forms.Label();
             this.pictureBox = new System.Windows.Forms.PictureBox();
+            this.buttonNext = new System.Windows.Forms.Button();
+            this.buttonPrevious = new System.Windows.Forms.Button();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,12 +61,41 @@ namespace SkridtTaeller
             this.pictureBox.TabIndex = 2;
             this.pictureBox.TabStop = false;
             // 
+            // buttonNext
+            // 
+            this.buttonNext.AutoSize = true;
+            this.buttonNext.Location = new System.Drawing.Point(524, 613);
+            this.buttonNext.Name = "buttonNext";
+            this.buttonNext.Size = new System.Drawing.Size(75, 23);
+            this.buttonNext.TabIndex = 3;
+            this.buttonNext.Text = "Next";
+            this.buttonNext.UseVisualStyleBackColor = true;
+            this.buttonNext.Click += new System.EventHandler(this.buttonNext_Click);
+            // 
+            // buttonPrevious
+            // 
+            this.buttonPrevious.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.buttonPrevious.AutoSize = true;
+            this.buttonPrevious.Location = new System.Drawing.Point(159, 613);
+            this.buttonPrevious.Name = "buttonPrevious";
+            this.buttonPrevious.Size = new System.Drawing.Size(75, 23);
+            this.buttonPrevious.TabIndex = 4;
+            this.buttonPrevious.Text = "Previous";
+            this.buttonPrevious.UseVisualStyleBackColor = true;
+            this.buttonPrevious.Click += new System.EventHandler(this.buttonPrevious_Click);
+            // 
+            // imageList1
+            // 
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            // 
             // guide
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(756, 784);
+            this.Controls.Add(this.buttonPrevious);
+            this.Controls.Add(this.buttonNext);
             this.Controls.Add(this.pictureBox);
             this.Controls.Add(this.guidePanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -70,6 +103,7 @@ namespace SkridtTaeller
             this.Text = "Form2";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -77,5 +111,8 @@ namespace SkridtTaeller
 
         private System.Windows.Forms.Label guidePanel;
         private System.Windows.Forms.PictureBox pictureBox;
+        private System.Windows.Forms.Button buttonNext;
+        private System.Windows.Forms.Button buttonPrevious;
+        private System.Windows.Forms.ImageList imageList1;
     }
 }
