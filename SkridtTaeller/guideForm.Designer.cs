@@ -30,6 +30,8 @@ namespace SkridtTaeller
         private void InitializeComponent()
         {
             this.guidePanel = new System.Windows.Forms.Label();
+            this.pictureBox = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // guidePanel
@@ -44,16 +46,29 @@ namespace SkridtTaeller
             this.guidePanel.Text = "GUIDE";
             this.guidePanel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // pictureBox
+            // 
+            this.pictureBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox.Image = global::SkridtTaeller.Properties.Resources.Guide_1;
+            this.pictureBox.Location = new System.Drawing.Point(0, 51);
+            this.pictureBox.Name = "pictureBox";
+            this.pictureBox.Size = new System.Drawing.Size(756, 733);
+            this.pictureBox.TabIndex = 2;
+            this.pictureBox.TabStop = false;
+            // 
             // guide
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(756, 784);
+            this.Controls.Add(this.pictureBox);
             this.Controls.Add(this.guidePanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "guide";
             this.Text = "Form2";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -61,5 +76,6 @@ namespace SkridtTaeller
         #endregion
 
         private System.Windows.Forms.Label guidePanel;
+        private System.Windows.Forms.PictureBox pictureBox;
     }
 }

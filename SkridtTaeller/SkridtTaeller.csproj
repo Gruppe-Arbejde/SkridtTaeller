@@ -122,5 +122,14 @@
   <ItemGroup>
     <None Include="Resources\3rd milestone1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guide 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guide 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guide 3.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
