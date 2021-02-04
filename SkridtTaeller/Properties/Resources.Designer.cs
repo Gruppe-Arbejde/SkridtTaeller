@@ -103,6 +103,16 @@ namespace SkridtTaeller.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Front_icon_large___Stepzy {
+            get {
+                object obj = ResourceManager.GetObject("Front icon large - Stepzy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Guide_1 {
             get {
                 object obj = ResourceManager.GetObject("Guide 1", resourceCulture);
@@ -126,6 +136,26 @@ namespace SkridtTaeller.Properties {
         internal static System.Drawing.Bitmap Guide_3 {
             get {
                 object obj = ResourceManager.GetObject("Guide 3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rewards___Stepzy {
+            get {
+                object obj = ResourceManager.GetObject("Rewards - Stepzy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Steps___Stepzy {
+            get {
+                object obj = ResourceManager.GetObject("Steps - Stepzy", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

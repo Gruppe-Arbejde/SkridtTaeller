@@ -43,7 +43,7 @@ namespace SkridtTaeller
             this.mainPanel.Controls.Add(a); //adds the variable a to the main subpanel
             a.Show(); //show the added variable on the subpanel
             hideSubMenu();
-            stepsyPicture.Visible = false; //disables the stepzy logo in main winForm
+            //stepsyPicture.Visible = false; //disables the stepzy logo in main winForm
         }
 
         private void rewardsButton_Click(object sender, EventArgs e)
@@ -54,7 +54,7 @@ namespace SkridtTaeller
             this.mainPanel.Controls.Add(b);
             b.Show();
             hideSubMenu();
-            stepsyPicture.Visible = false;
+            //stepsyPicture.Visible = false;
 
         }
 
@@ -66,7 +66,7 @@ namespace SkridtTaeller
             this.mainPanel.Controls.Add(c);
             c.Show();
             hideSubMenu();
-            stepsyPicture.Visible = false;
+            //stepsyPicture.Visible = false;
 
         }
 
@@ -77,7 +77,29 @@ namespace SkridtTaeller
             d.Show();
             this.Hide();
             hideSubMenu();
-            stepsyPicture.Visible = true;
+            //stepsyPicture.Visible = true;
+        }
+
+        private void pBSteps_Click(object sender, EventArgs e)
+        {
+            this.mainPanel.Controls.Clear();
+            steps c = new steps() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            c.FormBorderStyle = FormBorderStyle.None;
+            this.mainPanel.Controls.Add(c);
+            c.Show();
+            hideSubMenu();
+            //stepsyPicture.Visible = false;
+        }
+
+        private void pBRewards_Click(object sender, EventArgs e)
+        {
+            this.mainPanel.Controls.Clear();
+            rewardsPanel b = new rewardsPanel() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            b.FormBorderStyle = FormBorderStyle.None;
+            this.mainPanel.Controls.Add(b);
+            b.Show();
+            hideSubMenu();
+            //stepsyPicture.Visible = false;
         }
 
         //private Form activeForm = null;
