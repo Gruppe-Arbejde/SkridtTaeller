@@ -11,7 +11,6 @@ namespace SkridtTaeller
             devPanel.Visible = false; //Makes the subpanel not visible on boot/run
 
         }
-
         private void hideSubMenu()
         {
             if (devPanel.Visible == true)
@@ -46,7 +45,14 @@ namespace SkridtTaeller
 
         private void button3k_Click(object sender, EventArgs e)
         {
-            stepsLabel.Text = "10000";
+            stepsLabel.Text = "40075";
+            pictureBox1.Image = SkridtTaeller.Properties.Resources._3rd_milestone;
+        }
+
+        private void buttonDefault_Click(object sender, EventArgs e)
+        {
+            stepsLabel.Text = "0";
+            pictureBox1.Image = SkridtTaeller.Properties.Resources.begining_picture_in_steps_2_0;
         }
 
         //private void milestone()

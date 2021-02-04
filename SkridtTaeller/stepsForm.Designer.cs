@@ -33,16 +33,17 @@ namespace SkridtTaeller
         {
             this.stepsPanal = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.stepsLabel = new System.Windows.Forms.Label();
             this.button3k = new System.Windows.Forms.Button();
             this.button2k = new System.Windows.Forms.Button();
             this.button1k = new System.Windows.Forms.Button();
-            this.stepsLabel = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.devPanel = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.buttonDefault = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.devPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // stepsPanal
@@ -67,6 +68,18 @@ namespace SkridtTaeller
             this.panel1.Size = new System.Drawing.Size(756, 733);
             this.panel1.TabIndex = 1;
             // 
+            // stepsLabel
+            // 
+            this.stepsLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.stepsLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.stepsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stepsLabel.Location = new System.Drawing.Point(329, 12);
+            this.stepsLabel.Name = "stepsLabel";
+            this.stepsLabel.Size = new System.Drawing.Size(98, 28);
+            this.stepsLabel.TabIndex = 2;
+            this.stepsLabel.Text = "[STEPS]";
+            // 
             // button3k
             // 
             this.button3k.AutoSize = true;
@@ -74,7 +87,7 @@ namespace SkridtTaeller
             this.button3k.Name = "button3k";
             this.button3k.Size = new System.Drawing.Size(88, 80);
             this.button3k.TabIndex = 6;
-            this.button3k.Text = "10.000";
+            this.button3k.Text = "40.075";
             this.button3k.UseVisualStyleBackColor = true;
             this.button3k.Click += new System.EventHandler(this.button3k_Click);
             // 
@@ -100,37 +113,15 @@ namespace SkridtTaeller
             this.button1k.UseVisualStyleBackColor = true;
             this.button1k.Click += new System.EventHandler(this.button1k_Click);
             // 
-            // stepsLabel
-            // 
-            this.stepsLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.stepsLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.stepsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stepsLabel.Location = new System.Drawing.Point(329, 12);
-            this.stepsLabel.Name = "stepsLabel";
-            this.stepsLabel.Size = new System.Drawing.Size(98, 28);
-            this.stepsLabel.TabIndex = 2;
-            this.stepsLabel.Text = "[STEPS]";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::SkridtTaeller.Properties.Resources.begining_picture_in_steps_2_0;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(756, 733);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
             // devPanel
             // 
+            this.devPanel.Controls.Add(this.buttonDefault);
             this.devPanel.Controls.Add(this.button3k);
             this.devPanel.Controls.Add(this.button1k);
             this.devPanel.Controls.Add(this.button2k);
             this.devPanel.Location = new System.Drawing.Point(660, 51);
             this.devPanel.Name = "devPanel";
-            this.devPanel.Size = new System.Drawing.Size(96, 252);
+            this.devPanel.Size = new System.Drawing.Size(96, 335);
             this.devPanel.TabIndex = 7;
             // 
             // button1
@@ -143,6 +134,28 @@ namespace SkridtTaeller
             this.button1.Text = "=";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::SkridtTaeller.Properties.Resources.begining_picture_in_steps_2_0;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(756, 733);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // buttonDefault
+            // 
+            this.buttonDefault.AutoSize = true;
+            this.buttonDefault.Location = new System.Drawing.Point(3, 252);
+            this.buttonDefault.Name = "buttonDefault";
+            this.buttonDefault.Size = new System.Drawing.Size(88, 80);
+            this.buttonDefault.TabIndex = 7;
+            this.buttonDefault.Text = "Default";
+            this.buttonDefault.UseVisualStyleBackColor = true;
+            this.buttonDefault.Click += new System.EventHandler(this.buttonDefault_Click);
             // 
             // steps
             // 
@@ -158,9 +171,9 @@ namespace SkridtTaeller
             this.Name = "steps";
             this.Text = "Form4";
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.devPanel.ResumeLayout(false);
             this.devPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -176,5 +189,6 @@ namespace SkridtTaeller
         private System.Windows.Forms.Button button2k;
         private System.Windows.Forms.Panel devPanel;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonDefault;
     }
 }

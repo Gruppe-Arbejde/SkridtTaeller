@@ -83,6 +83,16 @@ namespace SkridtTaeller.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3rd_milestone {
+            get {
+                object obj = ResourceManager.GetObject("3rd milestone", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap begining_picture_in_steps_2_0 {
             get {
                 object obj = ResourceManager.GetObject("begining picture in steps 2.0", resourceCulture);
