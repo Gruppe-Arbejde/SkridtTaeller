@@ -38,8 +38,11 @@ namespace SkridtTaeller
             this.button1k = new System.Windows.Forms.Button();
             this.stepsLabel = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.devPanel = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.devPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // stepsPanal
@@ -56,9 +59,6 @@ namespace SkridtTaeller
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.button3k);
-            this.panel1.Controls.Add(this.button2k);
-            this.panel1.Controls.Add(this.button1k);
             this.panel1.Controls.Add(this.stepsLabel);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -69,31 +69,34 @@ namespace SkridtTaeller
             // 
             // button3k
             // 
-            this.button3k.Location = new System.Drawing.Point(444, 355);
+            this.button3k.AutoSize = true;
+            this.button3k.Location = new System.Drawing.Point(3, 169);
             this.button3k.Name = "button3k";
             this.button3k.Size = new System.Drawing.Size(88, 80);
             this.button3k.TabIndex = 6;
-            this.button3k.Text = "3000";
+            this.button3k.Text = "10.000";
             this.button3k.UseVisualStyleBackColor = true;
             this.button3k.Click += new System.EventHandler(this.button3k_Click);
             // 
             // button2k
             // 
-            this.button2k.Location = new System.Drawing.Point(339, 355);
+            this.button2k.AutoSize = true;
+            this.button2k.Location = new System.Drawing.Point(3, 86);
             this.button2k.Name = "button2k";
             this.button2k.Size = new System.Drawing.Size(88, 80);
             this.button2k.TabIndex = 5;
-            this.button2k.Text = "2000";
+            this.button2k.Text = "8849";
             this.button2k.UseVisualStyleBackColor = true;
             this.button2k.Click += new System.EventHandler(this.button2k_Click);
             // 
             // button1k
             // 
-            this.button1k.Location = new System.Drawing.Point(245, 355);
+            this.button1k.AutoSize = true;
+            this.button1k.Location = new System.Drawing.Point(3, 3);
             this.button1k.Name = "button1k";
             this.button1k.Size = new System.Drawing.Size(88, 80);
             this.button1k.TabIndex = 4;
-            this.button1k.Text = "1000";
+            this.button1k.Text = "93";
             this.button1k.UseVisualStyleBackColor = true;
             this.button1k.Click += new System.EventHandler(this.button1k_Click);
             // 
@@ -101,7 +104,6 @@ namespace SkridtTaeller
             // 
             this.stepsLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.stepsLabel.AutoSize = true;
             this.stepsLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.stepsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.stepsLabel.Location = new System.Drawing.Point(329, 12);
@@ -121,20 +123,44 @@ namespace SkridtTaeller
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
+            // devPanel
+            // 
+            this.devPanel.Controls.Add(this.button3k);
+            this.devPanel.Controls.Add(this.button1k);
+            this.devPanel.Controls.Add(this.button2k);
+            this.devPanel.Location = new System.Drawing.Point(660, 51);
+            this.devPanel.Name = "devPanel";
+            this.devPanel.Size = new System.Drawing.Size(96, 252);
+            this.devPanel.TabIndex = 7;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(663, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(87, 39);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "=";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // steps
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(756, 784);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.devPanel);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.stepsPanal);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "steps";
             this.Text = "Form4";
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.devPanel.ResumeLayout(false);
+            this.devPanel.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -148,5 +174,7 @@ namespace SkridtTaeller
         private System.Windows.Forms.Button button1k;
         private System.Windows.Forms.Button button3k;
         private System.Windows.Forms.Button button2k;
+        private System.Windows.Forms.Panel devPanel;
+        private System.Windows.Forms.Button button1;
     }
 }

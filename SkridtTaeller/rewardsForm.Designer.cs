@@ -521,7 +521,7 @@ namespace SkridtTaeller
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(140, 28);
             this.label29.TabIndex = 47;
-            this.label29.Text = "1/1000th of a Bitcoin";
+            this.label29.Text = "1/100.000th of a Bitcoin";
             // 
             // label30
             // 
