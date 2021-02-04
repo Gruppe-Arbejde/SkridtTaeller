@@ -31,20 +31,24 @@ namespace SkridtTaeller
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(homepageForm));
             this.panelTopMenu = new System.Windows.Forms.FlowLayoutPanel();
-            this.panelLogo = new System.Windows.Forms.Panel();
             this.dropDown = new System.Windows.Forms.Button();
             this.subMenuPanel = new System.Windows.Forms.Panel();
             this.stepsButton = new System.Windows.Forms.Button();
             this.rewardsButton = new System.Windows.Forms.Button();
             this.guideButton = new System.Windows.Forms.Button();
             this.mainPanel = new System.Windows.Forms.Panel();
-            this.stepsyPicture = new System.Windows.Forms.PictureBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
+            this.pBMilestone = new System.Windows.Forms.PictureBox();
+            this.pBRewards = new System.Windows.Forms.PictureBox();
+            this.pBSteps = new System.Windows.Forms.PictureBox();
+            this.panelLogo = new System.Windows.Forms.Panel();
             this.panelTopMenu.SuspendLayout();
             this.subMenuPanel.SuspendLayout();
             this.mainPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.stepsyPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBMilestone)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBRewards)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBSteps)).BeginInit();
             this.SuspendLayout();
             // 
             // panelTopMenu
@@ -56,12 +60,6 @@ namespace SkridtTaeller
             this.panelTopMenu.Cursor = System.Windows.Forms.Cursors.Hand;
             resources.ApplyResources(this.panelTopMenu, "panelTopMenu");
             this.panelTopMenu.Name = "panelTopMenu";
-            // 
-            // panelLogo
-            // 
-            resources.ApplyResources(this.panelLogo, "panelLogo");
-            this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Click += new System.EventHandler(this.panelLogo_Click);
             // 
             // dropDown
             // 
@@ -112,14 +110,39 @@ namespace SkridtTaeller
             // 
             resources.ApplyResources(this.mainPanel, "mainPanel");
             this.mainPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.mainPanel.Controls.Add(this.stepsyPicture);
+            this.mainPanel.Controls.Add(this.pBMilestone);
+            this.mainPanel.Controls.Add(this.pBRewards);
+            this.mainPanel.Controls.Add(this.pBSteps);
             this.mainPanel.Name = "mainPanel";
             // 
-            // stepsyPicture
+            // pBMilestone
             // 
-            resources.ApplyResources(this.stepsyPicture, "stepsyPicture");
-            this.stepsyPicture.Name = "stepsyPicture";
-            this.stepsyPicture.TabStop = false;
+            this.pBMilestone.Image = global::SkridtTaeller.Properties.Resources.Front_icon_large___Stepzy;
+            resources.ApplyResources(this.pBMilestone, "pBMilestone");
+            this.pBMilestone.Name = "pBMilestone";
+            this.pBMilestone.TabStop = false;
+            // 
+            // pBRewards
+            // 
+            this.pBRewards.Image = global::SkridtTaeller.Properties.Resources.Rewards___Stepzy;
+            resources.ApplyResources(this.pBRewards, "pBRewards");
+            this.pBRewards.Name = "pBRewards";
+            this.pBRewards.TabStop = false;
+            this.pBRewards.Click += new System.EventHandler(this.pBRewards_Click);
+            // 
+            // pBSteps
+            // 
+            this.pBSteps.Image = global::SkridtTaeller.Properties.Resources.Steps___Stepzy;
+            resources.ApplyResources(this.pBSteps, "pBSteps");
+            this.pBSteps.Name = "pBSteps";
+            this.pBSteps.TabStop = false;
+            this.pBSteps.Click += new System.EventHandler(this.pBSteps_Click);
+            // 
+            // panelLogo
+            // 
+            resources.ApplyResources(this.panelLogo, "panelLogo");
+            this.panelLogo.Name = "panelLogo";
+            this.panelLogo.Click += new System.EventHandler(this.panelLogo_Click);
             // 
             // homepageForm
             // 
@@ -133,8 +156,9 @@ namespace SkridtTaeller
             this.panelTopMenu.ResumeLayout(false);
             this.subMenuPanel.ResumeLayout(false);
             this.mainPanel.ResumeLayout(false);
-            this.mainPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.stepsyPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBMilestone)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBRewards)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBSteps)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -149,9 +173,11 @@ namespace SkridtTaeller
         private System.Windows.Forms.Button rewardsButton;
         private System.Windows.Forms.Button guideButton;
         private System.Windows.Forms.Panel mainPanel;
-        private System.Windows.Forms.PictureBox stepsyPicture;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.ComponentModel.BackgroundWorker backgroundWorker2;
+        private System.Windows.Forms.PictureBox pBSteps;
+        private System.Windows.Forms.PictureBox pBRewards;
+        private System.Windows.Forms.PictureBox pBMilestone;
     }
 }
 
