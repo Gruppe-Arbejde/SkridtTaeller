@@ -39,6 +39,8 @@ namespace SkridtTaeller
             this.guideButton = new System.Windows.Forms.Button();
             this.mainPanel = new System.Windows.Forms.Panel();
             this.stepsyPicture = new System.Windows.Forms.PictureBox();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.panelTopMenu.SuspendLayout();
             this.subMenuPanel.SuspendLayout();
             this.mainPanel.SuspendLayout();
@@ -148,6 +150,8 @@ namespace SkridtTaeller
         private System.Windows.Forms.Button guideButton;
         private System.Windows.Forms.Panel mainPanel;
         private System.Windows.Forms.PictureBox stepsyPicture;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker2;
     }
 }
 

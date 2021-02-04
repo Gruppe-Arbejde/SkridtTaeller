@@ -33,6 +33,9 @@ namespace SkridtTaeller
         {
             this.stepsPanal = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button3k = new System.Windows.Forms.Button();
+            this.button2k = new System.Windows.Forms.Button();
+            this.button1k = new System.Windows.Forms.Button();
             this.stepsLabel = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
@@ -53,6 +56,9 @@ namespace SkridtTaeller
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.button3k);
+            this.panel1.Controls.Add(this.button2k);
+            this.panel1.Controls.Add(this.button1k);
             this.panel1.Controls.Add(this.stepsLabel);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -60,6 +66,36 @@ namespace SkridtTaeller
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(756, 733);
             this.panel1.TabIndex = 1;
+            // 
+            // button3k
+            // 
+            this.button3k.Location = new System.Drawing.Point(444, 355);
+            this.button3k.Name = "button3k";
+            this.button3k.Size = new System.Drawing.Size(88, 80);
+            this.button3k.TabIndex = 6;
+            this.button3k.Text = "3000";
+            this.button3k.UseVisualStyleBackColor = true;
+            this.button3k.Click += new System.EventHandler(this.button3k_Click);
+            // 
+            // button2k
+            // 
+            this.button2k.Location = new System.Drawing.Point(339, 355);
+            this.button2k.Name = "button2k";
+            this.button2k.Size = new System.Drawing.Size(88, 80);
+            this.button2k.TabIndex = 5;
+            this.button2k.Text = "2000";
+            this.button2k.UseVisualStyleBackColor = true;
+            this.button2k.Click += new System.EventHandler(this.button2k_Click);
+            // 
+            // button1k
+            // 
+            this.button1k.Location = new System.Drawing.Point(245, 355);
+            this.button1k.Name = "button1k";
+            this.button1k.Size = new System.Drawing.Size(88, 80);
+            this.button1k.TabIndex = 4;
+            this.button1k.Text = "1000";
+            this.button1k.UseVisualStyleBackColor = true;
+            this.button1k.Click += new System.EventHandler(this.button1k_Click);
             // 
             // stepsLabel
             // 
@@ -109,5 +145,8 @@ namespace SkridtTaeller
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label stepsLabel;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button1k;
+        private System.Windows.Forms.Button button3k;
+        private System.Windows.Forms.Button button2k;
     }
 }
