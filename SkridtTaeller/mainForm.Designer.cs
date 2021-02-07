@@ -31,18 +31,18 @@ namespace SkridtTaeller
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(homepageForm));
             this.panelTopMenu = new System.Windows.Forms.FlowLayoutPanel();
+            this.panelLogo = new System.Windows.Forms.Panel();
             this.dropDown = new System.Windows.Forms.Button();
             this.subMenuPanel = new System.Windows.Forms.Panel();
             this.stepsButton = new System.Windows.Forms.Button();
             this.rewardsButton = new System.Windows.Forms.Button();
             this.guideButton = new System.Windows.Forms.Button();
             this.mainPanel = new System.Windows.Forms.Panel();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.pBMilestone = new System.Windows.Forms.PictureBox();
             this.pBRewards = new System.Windows.Forms.PictureBox();
             this.pBSteps = new System.Windows.Forms.PictureBox();
-            this.panelLogo = new System.Windows.Forms.Panel();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.panelTopMenu.SuspendLayout();
             this.subMenuPanel.SuspendLayout();
             this.mainPanel.SuspendLayout();
@@ -60,6 +60,12 @@ namespace SkridtTaeller
             this.panelTopMenu.Cursor = System.Windows.Forms.Cursors.Hand;
             resources.ApplyResources(this.panelTopMenu, "panelTopMenu");
             this.panelTopMenu.Name = "panelTopMenu";
+            // 
+            // panelLogo
+            // 
+            resources.ApplyResources(this.panelLogo, "panelLogo");
+            this.panelLogo.Name = "panelLogo";
+            this.panelLogo.Click += new System.EventHandler(this.panelLogo_Click);
             // 
             // dropDown
             // 
@@ -137,12 +143,6 @@ namespace SkridtTaeller
             this.pBSteps.Name = "pBSteps";
             this.pBSteps.TabStop = false;
             this.pBSteps.Click += new System.EventHandler(this.pBSteps_Click);
-            // 
-            // panelLogo
-            // 
-            resources.ApplyResources(this.panelLogo, "panelLogo");
-            this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Click += new System.EventHandler(this.panelLogo_Click);
             // 
             // homepageForm
             // 

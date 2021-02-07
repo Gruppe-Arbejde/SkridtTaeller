@@ -117,360 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;panelLogo.Name" xml:space="preserve">
-    <value>panelLogo</value>
-  </data>
-  <data name="&gt;&gt;panelLogo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelLogo.Parent" xml:space="preserve">
-    <value>panelTopMenu</value>
-  </data>
-  <data name="&gt;&gt;panelLogo.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;dropDown.Name" xml:space="preserve">
-    <value>dropDown</value>
-  </data>
-  <data name="&gt;&gt;dropDown.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dropDown.Parent" xml:space="preserve">
-    <value>panelTopMenu</value>
-  </data>
-  <data name="&gt;&gt;dropDown.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;subMenuPanel.Name" xml:space="preserve">
-    <value>subMenuPanel</value>
-  </data>
-  <data name="&gt;&gt;subMenuPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;subMenuPanel.Parent" xml:space="preserve">
-    <value>panelTopMenu</value>
-  </data>
-  <data name="&gt;&gt;subMenuPanel.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="panelTopMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-1, -1</value>
-  </data>
-  <data name="panelTopMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>756, 100</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="panelTopMenu.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panelTopMenu.Name" xml:space="preserve">
-    <value>panelTopMenu</value>
-  </data>
-  <data name="&gt;&gt;panelTopMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelTopMenu.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panelTopMenu.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="dropDown.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="dropDown.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 40pt</value>
-  </data>
-  <data name="dropDown.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="dropDown.Location" type="System.Drawing.Point, System.Drawing">
-    <value>115, 3</value>
-  </data>
-  <data name="dropDown.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 95</value>
-  </data>
-  <data name="dropDown.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="dropDown.Text" xml:space="preserve">
-    <value>=</value>
-  </data>
-  <data name="&gt;&gt;dropDown.Name" xml:space="preserve">
-    <value>dropDown</value>
-  </data>
-  <data name="&gt;&gt;dropDown.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dropDown.Parent" xml:space="preserve">
-    <value>panelTopMenu</value>
-  </data>
-  <data name="&gt;&gt;dropDown.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;stepsButton.Name" xml:space="preserve">
-    <value>stepsButton</value>
-  </data>
-  <data name="&gt;&gt;stepsButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;stepsButton.Parent" xml:space="preserve">
-    <value>subMenuPanel</value>
-  </data>
-  <data name="&gt;&gt;stepsButton.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;rewardsButton.Name" xml:space="preserve">
-    <value>rewardsButton</value>
-  </data>
-  <data name="&gt;&gt;rewardsButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rewardsButton.Parent" xml:space="preserve">
-    <value>subMenuPanel</value>
-  </data>
-  <data name="&gt;&gt;rewardsButton.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;guideButton.Name" xml:space="preserve">
-    <value>guideButton</value>
-  </data>
-  <data name="&gt;&gt;guideButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;guideButton.Parent" xml:space="preserve">
-    <value>subMenuPanel</value>
-  </data>
-  <data name="&gt;&gt;guideButton.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="subMenuPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>236, 3</value>
-  </data>
-  <data name="subMenuPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>366, 95</value>
-  </data>
-  <data name="subMenuPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;subMenuPanel.Name" xml:space="preserve">
-    <value>subMenuPanel</value>
-  </data>
-  <data name="&gt;&gt;subMenuPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;subMenuPanel.Parent" xml:space="preserve">
-    <value>panelTopMenu</value>
-  </data>
-  <data name="&gt;&gt;subMenuPanel.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="stepsButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="stepsButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13pt</value>
-  </data>
-  <data name="stepsButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="stepsButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>239, -3</value>
-  </data>
-  <data name="stepsButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 100</value>
-  </data>
-  <data name="stepsButton.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="stepsButton.Text" xml:space="preserve">
-    <value>Steps</value>
-  </data>
-  <data name="&gt;&gt;stepsButton.Name" xml:space="preserve">
-    <value>stepsButton</value>
-  </data>
-  <data name="&gt;&gt;stepsButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;stepsButton.Parent" xml:space="preserve">
-    <value>subMenuPanel</value>
-  </data>
-  <data name="&gt;&gt;stepsButton.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="rewardsButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="rewardsButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13pt</value>
-  </data>
-  <data name="rewardsButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="rewardsButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>121, 0</value>
-  </data>
-  <data name="rewardsButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 97</value>
-  </data>
-  <data name="rewardsButton.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="rewardsButton.Text" xml:space="preserve">
-    <value>Rewards</value>
-  </data>
-  <data name="&gt;&gt;rewardsButton.Name" xml:space="preserve">
-    <value>rewardsButton</value>
-  </data>
-  <data name="&gt;&gt;rewardsButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rewardsButton.Parent" xml:space="preserve">
-    <value>subMenuPanel</value>
-  </data>
-  <data name="&gt;&gt;rewardsButton.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="guideButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="guideButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13pt</value>
-  </data>
-  <data name="guideButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="guideButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="guideButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 97</value>
-  </data>
-  <data name="guideButton.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="guideButton.Text" xml:space="preserve">
-    <value>Guide</value>
-  </data>
-  <data name="&gt;&gt;guideButton.Name" xml:space="preserve">
-    <value>guideButton</value>
-  </data>
-  <data name="&gt;&gt;guideButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;guideButton.Parent" xml:space="preserve">
-    <value>subMenuPanel</value>
-  </data>
-  <data name="&gt;&gt;guideButton.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="mainPanel.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
-  </data>
-  <data name="pBMilestone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pBMilestone.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 451</value>
-  </data>
-  <data name="pBMilestone.Size" type="System.Drawing.Size, System.Drawing">
-    <value>728, 290</value>
-  </data>
-  <data name="pBMilestone.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pBMilestone.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;pBMilestone.Name" xml:space="preserve">
-    <value>pBMilestone</value>
-  </data>
-  <data name="&gt;&gt;pBMilestone.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pBMilestone.Parent" xml:space="preserve">
-    <value>mainPanel</value>
-  </data>
-  <data name="&gt;&gt;pBMilestone.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="pBRewards.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pBRewards.Location" type="System.Drawing.Point, System.Drawing">
-    <value>383, 32</value>
-  </data>
-  <data name="pBRewards.Size" type="System.Drawing.Size, System.Drawing">
-    <value>358, 323</value>
-  </data>
-  <data name="pBRewards.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;pBRewards.Name" xml:space="preserve">
-    <value>pBRewards</value>
-  </data>
-  <data name="&gt;&gt;pBRewards.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pBRewards.Parent" xml:space="preserve">
-    <value>mainPanel</value>
-  </data>
-  <data name="&gt;&gt;pBRewards.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="pBSteps.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pBSteps.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 32</value>
-  </data>
-  <data name="pBSteps.Size" type="System.Drawing.Size, System.Drawing">
-    <value>358, 323</value>
-  </data>
-  <data name="pBSteps.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pBSteps.Name" xml:space="preserve">
-    <value>pBSteps</value>
-  </data>
-  <data name="&gt;&gt;pBSteps.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pBSteps.Parent" xml:space="preserve">
-    <value>mainPanel</value>
-  </data>
-  <data name="&gt;&gt;pBSteps.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="mainPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-1, 99</value>
-  </data>
-  <data name="mainPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>771, 787</value>
-  </data>
-  <data name="mainPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;mainPanel.Name" xml:space="preserve">
-    <value>mainPanel</value>
-  </data>
-  <data name="&gt;&gt;mainPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mainPanel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;mainPanel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="backgroundWorker2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>181, 17</value>
-  </metadata>
   <data name="panelLogo.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAigAAAKkCAYAAAAqf8QmAAAABGdBTUEAALGPC/xhBQAAa1tJREFUeF7t
@@ -935,6 +582,7 @@
         nclw3gAAAABJRU5ErkJggg==
 </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="panelLogo.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
   </data>
@@ -947,6 +595,7 @@
   <data name="panelLogo.Size" type="System.Drawing.Size, System.Drawing">
     <value>106, 95</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="panelLogo.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
@@ -962,6 +611,285 @@
   <data name="&gt;&gt;panelLogo.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="dropDown.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="dropDown.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 40pt</value>
+  </data>
+  <data name="dropDown.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dropDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 3</value>
+  </data>
+  <data name="dropDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 95</value>
+  </data>
+  <data name="dropDown.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="dropDown.Text" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="&gt;&gt;dropDown.Name" xml:space="preserve">
+    <value>dropDown</value>
+  </data>
+  <data name="&gt;&gt;dropDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dropDown.Parent" xml:space="preserve">
+    <value>panelTopMenu</value>
+  </data>
+  <data name="&gt;&gt;dropDown.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="stepsButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="stepsButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="stepsButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="stepsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, -3</value>
+  </data>
+  <data name="stepsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 100</value>
+  </data>
+  <data name="stepsButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="stepsButton.Text" xml:space="preserve">
+    <value>Steps</value>
+  </data>
+  <data name="&gt;&gt;stepsButton.Name" xml:space="preserve">
+    <value>stepsButton</value>
+  </data>
+  <data name="&gt;&gt;stepsButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stepsButton.Parent" xml:space="preserve">
+    <value>subMenuPanel</value>
+  </data>
+  <data name="&gt;&gt;stepsButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rewardsButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="rewardsButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="rewardsButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rewardsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 0</value>
+  </data>
+  <data name="rewardsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 97</value>
+  </data>
+  <data name="rewardsButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rewardsButton.Text" xml:space="preserve">
+    <value>Præmier</value>
+  </data>
+  <data name="&gt;&gt;rewardsButton.Name" xml:space="preserve">
+    <value>rewardsButton</value>
+  </data>
+  <data name="&gt;&gt;rewardsButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rewardsButton.Parent" xml:space="preserve">
+    <value>subMenuPanel</value>
+  </data>
+  <data name="&gt;&gt;rewardsButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="guideButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="guideButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="guideButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="guideButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="guideButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 97</value>
+  </data>
+  <data name="guideButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="guideButton.Text" xml:space="preserve">
+    <value>Guide</value>
+  </data>
+  <data name="&gt;&gt;guideButton.Name" xml:space="preserve">
+    <value>guideButton</value>
+  </data>
+  <data name="&gt;&gt;guideButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;guideButton.Parent" xml:space="preserve">
+    <value>subMenuPanel</value>
+  </data>
+  <data name="&gt;&gt;guideButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="subMenuPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 3</value>
+  </data>
+  <data name="subMenuPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 95</value>
+  </data>
+  <data name="subMenuPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;subMenuPanel.Name" xml:space="preserve">
+    <value>subMenuPanel</value>
+  </data>
+  <data name="&gt;&gt;subMenuPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;subMenuPanel.Parent" xml:space="preserve">
+    <value>panelTopMenu</value>
+  </data>
+  <data name="&gt;&gt;subMenuPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelTopMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, -1</value>
+  </data>
+  <data name="panelTopMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>756, 100</value>
+  </data>
+  <data name="panelTopMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelTopMenu.Name" xml:space="preserve">
+    <value>panelTopMenu</value>
+  </data>
+  <data name="&gt;&gt;panelTopMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelTopMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelTopMenu.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mainPanel.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="pBMilestone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pBMilestone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 451</value>
+  </data>
+  <data name="pBMilestone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>728, 290</value>
+  </data>
+  <data name="pBMilestone.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pBMilestone.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pBMilestone.Name" xml:space="preserve">
+    <value>pBMilestone</value>
+  </data>
+  <data name="&gt;&gt;pBMilestone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pBMilestone.Parent" xml:space="preserve">
+    <value>mainPanel</value>
+  </data>
+  <data name="&gt;&gt;pBMilestone.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pBRewards.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pBRewards.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 32</value>
+  </data>
+  <data name="pBRewards.Size" type="System.Drawing.Size, System.Drawing">
+    <value>358, 323</value>
+  </data>
+  <data name="pBRewards.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pBRewards.Name" xml:space="preserve">
+    <value>pBRewards</value>
+  </data>
+  <data name="&gt;&gt;pBRewards.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pBRewards.Parent" xml:space="preserve">
+    <value>mainPanel</value>
+  </data>
+  <data name="&gt;&gt;pBRewards.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pBSteps.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pBSteps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 32</value>
+  </data>
+  <data name="pBSteps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>358, 323</value>
+  </data>
+  <data name="pBSteps.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pBSteps.Name" xml:space="preserve">
+    <value>pBSteps</value>
+  </data>
+  <data name="&gt;&gt;pBSteps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pBSteps.Parent" xml:space="preserve">
+    <value>mainPanel</value>
+  </data>
+  <data name="&gt;&gt;pBSteps.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mainPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 99</value>
+  </data>
+  <data name="mainPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 787</value>
+  </data>
+  <data name="mainPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;mainPanel.Name" xml:space="preserve">
+    <value>mainPanel</value>
+  </data>
+  <data name="&gt;&gt;mainPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mainPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="backgroundWorker2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>181, 17</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -2780,9 +2708,6 @@
         AP7+3AD+/twA/v7cAP7+3AD+/twA/v7cAP7+3AD+/twA+/3bAcj92gJEAAAAAIABAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAAA=
 </value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
