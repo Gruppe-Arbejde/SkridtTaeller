@@ -140,5 +140,17 @@
   <ItemGroup>
     <None Include="Resources\Front icon large - Stepzy.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\begining picture in steps 2.01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1st milestone1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2nd milestone1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3rd milestone2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

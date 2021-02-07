@@ -118,34 +118,46 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Front icon large - Stepzy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Front icon large - Stepzy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1st milestone1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1st milestone1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Rewards - Stepzy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Rewards - Stepzy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Guide 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Guide 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Guide 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Guide 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Guide 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Guide 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="3rd milestone" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3rd milestone1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="2nd milestone" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2nd milestone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Steps - Stepzy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Steps - Stepzy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="begining picture in steps 21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\begining picture in steps 2.01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="begining picture in steps 2.0" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\begining picture in steps 2.0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Guide 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Guide 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Guide 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Guide 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Steps - Stepzy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Steps - Stepzy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3rd milestone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3rd milestone1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2nd milestone1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2nd milestone1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2nd milestone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2nd milestone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="1st milestone" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1st milestone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Front icon large - Stepzy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Front icon large - Stepzy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="3rd milestone1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3rd milestone2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

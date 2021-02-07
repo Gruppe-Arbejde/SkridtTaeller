@@ -32,27 +32,27 @@ namespace SkridtTaeller
         private void button1k_Click(object sender, EventArgs e)
         {
             stepsLabel.Text = "93";
-            pictureBox1.Image = SkridtTaeller.Properties.Resources._1st_milestone;
+            pictureBox1.Image = SkridtTaeller.Properties.Resources._1st_milestone1;
 
         }
 
         private void button2k_Click(object sender, EventArgs e)
         {
             stepsLabel.Text = "8849";
-            pictureBox1.Image = SkridtTaeller.Properties.Resources._2nd_milestone;
+            pictureBox1.Image = SkridtTaeller.Properties.Resources._2nd_milestone1;
 
         }
 
         private void button3k_Click(object sender, EventArgs e)
         {
             stepsLabel.Text = "40075";
-            pictureBox1.Image = SkridtTaeller.Properties.Resources._3rd_milestone;
+            pictureBox1.Image = SkridtTaeller.Properties.Resources._3rd_milestone1;
         }
 
         private void buttonDefault_Click(object sender, EventArgs e)
         {
             stepsLabel.Text = "0";
-            pictureBox1.Image = SkridtTaeller.Properties.Resources.begining_picture_in_steps_2_0;
+            pictureBox1.Image = SkridtTaeller.Properties.Resources.begining_picture_in_steps_21;
         }
 
         //private void milestone()

@@ -73,9 +73,29 @@ namespace SkridtTaeller.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1st_milestone1 {
+            get {
+                object obj = ResourceManager.GetObject("1st milestone1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _2nd_milestone {
             get {
                 object obj = ResourceManager.GetObject("2nd milestone", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2nd_milestone1 {
+            get {
+                object obj = ResourceManager.GetObject("2nd milestone1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +113,29 @@ namespace SkridtTaeller.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3rd_milestone1 {
+            get {
+                object obj = ResourceManager.GetObject("3rd milestone1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap begining_picture_in_steps_2_0 {
             get {
                 object obj = ResourceManager.GetObject("begining picture in steps 2.0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap begining_picture_in_steps_21 {
+            get {
+                object obj = ResourceManager.GetObject("begining picture in steps 21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
